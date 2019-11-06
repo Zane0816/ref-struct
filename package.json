@@ -21,13 +21,13 @@
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
   },
   "dependencies": {
-    "debug": "2",
-    "ref": "1"
+    "debug": "^4.1.1",
+    "ref": "https://github.com/Zane0816/ref"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
-    "nan": "2",
     "mocha": "*",
-    "ref-array": "~1.1.2"
+    "nan": "2",
+    "ref-array": "https://github.com/Zane0816/ref-array"
   }
 }
